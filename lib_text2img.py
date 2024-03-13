@@ -3,7 +3,7 @@ import re
 import gender_guesser.detector as gender
 from transformers import pipeline
 import matplotlib.colors as mcolors
-from image import get_img_from_clipart, get_img_from_dalle
+from lib_generate-image import get_img_from_clipart, get_img_from_dalle
 import sqlite3 as sq
 from flair.data import Sentence
 from transformers import AutoModelForTokenClassification, AutoTokenizer
